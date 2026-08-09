@@ -1,0 +1,294 @@
+{
+  "mod_elements": [
+    {
+      "name": "HiddenBlockGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hidden_block_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/world/inventory/HiddenBlockGUIMenu.java",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/client/gui/HiddenBlockGUIScreen.java",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/network/HiddenBlockGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "HiddenBlockCodeEntered",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hidden_block_code_entered",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/HiddenBlockCodeEnteredProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenHiddenBlockMenu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_hidden_block_menu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/OpenHiddenBlockMenuProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HiddenBlockSetCodeGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hidden_block_set_code_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/world/inventory/HiddenBlockSetCodeGUIMenu.java",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/network/HiddenBlockSetCodeGUIButtonMessage.java",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/client/gui/HiddenBlockSetCodeGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "HiddenBlockSetCodeLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hidden_block_set_code_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/HiddenBlockSetCodeLogicProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HiddenBlockSetCode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hidden_block_set_code",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/HiddenBlockSetCodeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HiddenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hidden_block",
+      "metadata": {
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/block/entity/HiddenBlockBlockEntity.java",
+          "src/main/resources/assets/hidden_house/models/item/hidden_block.json",
+          "src/main/resources/assets/hidden_house/models/block/hidden_block.json",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/block/HiddenBlockBlock.java",
+          "src/main/resources/assets/hidden_house/blockstates/hidden_block.json",
+          "src/main/resources/data/hidden_house/loot_tables/blocks/hidden_block.json"
+        ]
+      }
+    },
+    {
+      "name": "OpenHiddenBlockWalkedOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_hidden_block_walked_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/OpenHiddenBlockWalkedOnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenHiddenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_hidden_block",
+      "metadata": {
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/block/entity/OpenHiddenBlockBlockEntity.java",
+          "src/main/resources/assets/hidden_house/blockstates/open_hidden_block.json",
+          "src/main/resources/assets/hidden_house/models/item/open_hidden_block.json",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/block/OpenHiddenBlockBlock.java",
+          "src/main/resources/data/hidden_house/loot_tables/blocks/open_hidden_block.json",
+          "src/main/resources/assets/hidden_house/models/block/open_hidden_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.home.hidden_block_gui.code": "",
+      "gui.home.hidden_block_gui.button_empty": "",
+      "gui.home.hidden_block_set_code_gui.code": "Type code here....",
+      "gui.home.hidden_block_set_code_gui.button_set_code": "Set Code",
+      "gui.home.hidden_block_set_code_gui.label_set_code_to_unlock_it": "Set code",
+      "block.home.hidden_block": "Hidden Block",
+      "gui.hidden_house.hidden_block_gui.code": "Enter code here....",
+      "gui.hidden_house.hidden_block_gui.button_empty": "",
+      "gui.hidden_house.hidden_block_set_code_gui.label_set_code_to_unlock_it": "Set code",
+      "gui.hidden_house.hidden_block_set_code_gui.button_set_code": "Set Code",
+      "gui.hidden_house.hidden_block_set_code_gui.code": "Type code here....",
+      "block.hidden_house.hidden_block": "Hidden Block",
+      "gui.hidden_house.hidden_block_gui.button_open": "Open!",
+      "gui.hidden_house.hidden_block_gui.label_enter_code": "Enter code",
+      "block.hidden_house.open_hidden_block": "Open Hidden Block"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/app/vercel/macho_buck_webapp/hidden_house/network/MenuStateUpdateMessage.java",
+      "src/main/java/app/vercel/macho_buck_webapp/hidden_house/init/HiddenHouseModMenus.java",
+      "src/main/java/app/vercel/macho_buck_webapp/hidden_house/init/HiddenHouseModScreens.java",
+      "src/main/java/app/vercel/macho_buck_webapp/hidden_house/init/HiddenHouseModBlocks.java",
+      "src/main/java/app/vercel/macho_buck_webapp/hidden_house/init/HiddenHouseModBlockEntities.java",
+      "src/main/java/app/vercel/macho_buck_webapp/hidden_house/init/HiddenHouseModItems.java",
+      "src/main/java/app/vercel/macho_buck_webapp/hidden_house/HiddenHouseMod.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/app/vercel/macho_buck_webapp/hidden_house/init/HiddenHouseModTabs.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hidden_house",
+    "modName": "Hidden House",
+    "version": "1.0.0-beta1",
+    "author": "absol255",
+    "websiteURL": "https://macho4life-store.vercel.app",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "app.vercel.macho_buck_webapp.hidden_house"
+  },
+  "mcreatorVersion": 202600230420
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hidden_house:block/open_hidden_block"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "hidden_house:blocks/open_hidden_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hidden_house:open_hidden_block"
+        }
+      ]
+    }
+  ]
+}
