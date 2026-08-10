@@ -10,6 +10,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import app.vercel.macho_buck_webapp.hidden_house.client.gui.ReverseHiddenBlockSetCodeGUIScreen;
+import app.vercel.macho_buck_webapp.hidden_house.client.gui.ReverseHiddenBlockGUIScreen;
 import app.vercel.macho_buck_webapp.hidden_house.client.gui.HiddenBlockSetCodeGUIScreen;
 import app.vercel.macho_buck_webapp.hidden_house.client.gui.HiddenBlockGUIScreen;
 
@@ -20,6 +22,8 @@ public class HiddenHouseModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(HiddenHouseModMenus.HIDDEN_BLOCK_GUI.get(), HiddenBlockGUIScreen::new);
 			MenuScreens.register(HiddenHouseModMenus.HIDDEN_BLOCK_SET_CODE_GUI.get(), HiddenBlockSetCodeGUIScreen::new);
+			MenuScreens.register(HiddenHouseModMenus.REVERSE_HIDDEN_BLOCK_GUI.get(), ReverseHiddenBlockGUIScreen::new);
+			MenuScreens.register(HiddenHouseModMenus.REVERSE_HIDDEN_BLOCK_SET_CODE_GUI.get(), ReverseHiddenBlockSetCodeGUIScreen::new);
 		});
 	}
 

@@ -17,6 +17,8 @@ import net.minecraft.client.Minecraft;
 
 import java.util.Map;
 
+import app.vercel.macho_buck_webapp.hidden_house.world.inventory.ReverseHiddenBlockSetCodeGUIMenu;
+import app.vercel.macho_buck_webapp.hidden_house.world.inventory.ReverseHiddenBlockGUIMenu;
 import app.vercel.macho_buck_webapp.hidden_house.world.inventory.HiddenBlockSetCodeGUIMenu;
 import app.vercel.macho_buck_webapp.hidden_house.world.inventory.HiddenBlockGUIMenu;
 import app.vercel.macho_buck_webapp.hidden_house.network.MenuStateUpdateMessage;
@@ -26,6 +28,8 @@ public class HiddenHouseModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, HiddenHouseMod.MODID);
 	public static final RegistryObject<MenuType<HiddenBlockGUIMenu>> HIDDEN_BLOCK_GUI = REGISTRY.register("hidden_block_gui", () -> IForgeMenuType.create(HiddenBlockGUIMenu::new));
 	public static final RegistryObject<MenuType<HiddenBlockSetCodeGUIMenu>> HIDDEN_BLOCK_SET_CODE_GUI = REGISTRY.register("hidden_block_set_code_gui", () -> IForgeMenuType.create(HiddenBlockSetCodeGUIMenu::new));
+	public static final RegistryObject<MenuType<ReverseHiddenBlockGUIMenu>> REVERSE_HIDDEN_BLOCK_GUI = REGISTRY.register("reverse_hidden_block_gui", () -> IForgeMenuType.create(ReverseHiddenBlockGUIMenu::new));
+	public static final RegistryObject<MenuType<ReverseHiddenBlockSetCodeGUIMenu>> REVERSE_HIDDEN_BLOCK_SET_CODE_GUI = REGISTRY.register("reverse_hidden_block_set_code_gui", () -> IForgeMenuType.create(ReverseHiddenBlockSetCodeGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "minecraft:block/dark_oak_leaves",
+    "top": "minecraft:block/dark_oak_leaves",
+    "side": "minecraft:block/dark_oak_leaves",
+    "overlay": "minecraft:block/dark_oak_leaves",
+    "particle": "minecraft:block/dark_oak_leaves"
+  },
+  "render_type": "cutout_mipped"
+}

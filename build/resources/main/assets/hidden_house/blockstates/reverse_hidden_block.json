@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hidden_house:block/reverse_hidden_block"
+    }
+  }
+}
