@@ -20,11 +20,20 @@ cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED
 -Dcom.sun.management.jmxremote.ssl=false
 -Dcom.sun.management.jmxremote.authenticate=false
 
+<<<<<<< Updated upstream
 -Dlog4j2.configurationFile=C:\\Users\\SPINKPOOF\\MCreatorWorkspaces\\home\\build\\moddev\\clientLog4j2.xml
 -DlegacyClassPath.file=C:\\Users\\SPINKPOOF\\MCreatorWorkspaces\\home\\build\\moddev\\clientLegacyClasspath.txt
+=======
+"-Dlog4j2.configurationFile=C:\\Users\\SPINKPOOF\\MCreatorWorkspaces\\home 2\\build\\moddev\\clientLog4j2.xml"
+"-DlegacyClassPath.file=C:\\Users\\SPINKPOOF\\MCreatorWorkspaces\\home 2\\build\\moddev\\clientLegacyClasspath.txt"
+>>>>>>> Stashed changes
 -DignoreList=bootstraplauncher,securejarhandler,asm-commons,asm-util,asm-analysis,asm-tree,asm,JarJarFileSystems,client-extra,fmlcore,javafmllanguage,lowcodelanguage,mclanguage,forge-
 -DmergeModules=jna-5.10.0.jar,jna-platform-5.10.0.jar
 -Dforge.enableGameTest=true
 -Dforge.logging.markers=REGISTRIES
 -Dmixin.env.remapRefMap=true
+<<<<<<< Updated upstream
 -Dmixin.env.refMapRemappingFile=C:\\Users\\SPINKPOOF\\MCreatorWorkspaces\\home\\build\\moddev\\artifacts\\intermediateToNamed.srg
+=======
+"-Dmixin.env.refMapRemappingFile=C:\\Users\\SPINKPOOF\\MCreatorWorkspaces\\home 2\\build\\moddev\\artifacts\\intermediateToNamed.srg"
+>>>>>>> Stashed changes

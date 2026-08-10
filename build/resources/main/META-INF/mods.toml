@@ -4,7 +4,11 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="hidden_house"
+<<<<<<< Updated upstream
 version="1.0.0-beta1"
+=======
+version="1.0.0-beta2"
+>>>>>>> Stashed changes
 displayName="Hidden House"
 displayURL="https://macho4life-store.vercel.app"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
