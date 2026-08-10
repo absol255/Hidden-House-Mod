@@ -24,7 +24,7 @@ public class OpenHiddenBlockWalkedOnProcedure {
 			return;
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					("tp " + entity.getDisplayName().getString() + " " + x + " " + (y - 2) + " " + z));
+					("tp " + entity.getDisplayName().getString() + " " + (x + 0.5) + " " + (y - 2) + " " + (z + 0.5)));
 		{
 			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockState _bs = HiddenHouseModBlocks.HIDDEN_BLOCK.get().defaultBlockState();

@@ -1,0 +1,17 @@
+{
+  "gui.home.hidden_block_gui.code": "",
+  "gui.home.hidden_block_gui.button_empty": "",
+  "gui.home.hidden_block_set_code_gui.code": "Type code here....",
+  "gui.home.hidden_block_set_code_gui.button_set_code": "Set Code",
+  "gui.home.hidden_block_set_code_gui.label_set_code_to_unlock_it": "Set code",
+  "block.home.hidden_block": "Hidden Block",
+  "gui.hidden_house.hidden_block_gui.code": "Enter code here....",
+  "gui.hidden_house.hidden_block_gui.button_empty": "",
+  "gui.hidden_house.hidden_block_set_code_gui.label_set_code_to_unlock_it": "Set code",
+  "gui.hidden_house.hidden_block_set_code_gui.button_set_code": "Set Code",
+  "gui.hidden_house.hidden_block_set_code_gui.code": "Type code here....",
+  "block.hidden_house.hidden_block": "Hidden Block",
+  "gui.hidden_house.hidden_block_gui.button_open": "Open!",
+  "gui.hidden_house.hidden_block_gui.label_enter_code": "Enter code",
+  "block.hidden_house.open_hidden_block": "Open Hidden Block"
+}

@@ -5,7 +5,7 @@
     "texture": "minecraft:dirt",
     "textureTop": "minecraft:grass_block_top",
     "textureLeft": "minecraft:grass_block_side_overlay",
-    "textureFront": "grass_block_side",
+    "textureFront": "minecraft:grass_block_side",
     "textureRight": "",
     "textureBack": "",
     "renderType": 14,
