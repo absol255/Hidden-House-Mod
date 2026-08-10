@@ -22,6 +22,7 @@ public class HiddenHouseModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(HiddenHouseModBlocks.HIDDEN_BLOCK.get().asItem());
+			tabData.accept(HiddenHouseModBlocks.REVERSE_HIDDEN_BLOCK.get().asItem());
 		}
 	}
 }

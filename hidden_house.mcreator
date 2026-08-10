@@ -240,6 +240,247 @@
         ]
       },
       "path": "~/HiddenBlockFolder"
+    },
+    {
+      "name": "ReverseHiddenBlockGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_hidden_block_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/client/gui/ReverseHiddenBlockGUIScreen.java",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/world/inventory/ReverseHiddenBlockGUIMenu.java",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/network/ReverseHiddenBlockGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/ReverseHiddenBlockFolder"
+    },
+    {
+      "name": "ReverseHiddenBlockCodeEntered",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_hidden_block_code_entered",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/ReverseHiddenBlockCodeEnteredProcedure.java"
+        ]
+      },
+      "path": "~/ReverseHiddenBlockFolder"
+    },
+    {
+      "name": "ReverseOpenHiddenBlockMenu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_open_hidden_block_menu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/ReverseOpenHiddenBlockMenuProcedure.java"
+        ]
+      },
+      "path": "~/ReverseHiddenBlockFolder"
+    },
+    {
+      "name": "ReverseHiddenBlockSetCodeGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_hidden_block_set_code_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/network/ReverseHiddenBlockSetCodeGUIButtonMessage.java",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/world/inventory/ReverseHiddenBlockSetCodeGUIMenu.java",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/client/gui/ReverseHiddenBlockSetCodeGUIScreen.java"
+        ]
+      },
+      "path": "~/ReverseHiddenBlockFolder"
+    },
+    {
+      "name": "ReverseHiddenBlockSetCodeLogic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_hidden_block_set_code_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/ReverseHiddenBlockSetCodeLogicProcedure.java"
+        ]
+      },
+      "path": "~/ReverseHiddenBlockFolder"
+    },
+    {
+      "name": "ReverseHiddenBlockSetCode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_hidden_block_set_code",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/ReverseHiddenBlockSetCodeProcedure.java"
+        ]
+      },
+      "path": "~/ReverseHiddenBlockFolder"
+    },
+    {
+      "name": "ReverseHiddenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_hidden_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hidden_house/models/block/reverse_hidden_block.json",
+          "src/main/resources/data/hidden_house/loot_tables/blocks/reverse_hidden_block.json",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/block/entity/ReverseHiddenBlockBlockEntity.java",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/block/ReverseHiddenBlockBlock.java",
+          "src/main/resources/assets/hidden_house/blockstates/reverse_hidden_block.json",
+          "src/main/resources/assets/hidden_house/models/item/reverse_hidden_block.json"
+        ]
+      },
+      "path": "~/ReverseHiddenBlockFolder"
+    },
+    {
+      "name": "ReverseOpenHiddenBlockWalkedOn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_open_hidden_block_walked_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/procedures/ReverseOpenHiddenBlockWalkedOnProcedure.java"
+        ]
+      },
+      "path": "~/ReverseHiddenBlockFolder"
+    },
+    {
+      "name": "ReverseOpenHiddenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_open_hidden_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hidden_house/models/item/reverse_open_hidden_block.json",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/block/ReverseOpenHiddenBlockBlock.java",
+          "src/main/resources/assets/hidden_house/models/block/reverse_open_hidden_block.json",
+          "src/main/java/app/vercel/macho_buck_webapp/hidden_house/block/entity/ReverseOpenHiddenBlockBlockEntity.java",
+          "src/main/resources/assets/hidden_house/blockstates/reverse_open_hidden_block.json",
+          "src/main/resources/data/hidden_house/loot_tables/blocks/reverse_open_hidden_block.json"
+        ]
+      },
+      "path": "~/ReverseHiddenBlockFolder"
     }
   ],
   "variable_elements": [],
@@ -262,7 +503,22 @@
       "block.hidden_house.hidden_block": "Hidden Block",
       "gui.hidden_house.hidden_block_gui.button_open": "Open!",
       "gui.hidden_house.hidden_block_gui.label_enter_code": "Enter code",
-      "block.hidden_house.open_hidden_block": "Open Hidden Block"
+      "block.hidden_house.open_hidden_block": "Open Hidden Block",
+      "gui.home.reverse_hidden_block_gui.code": "",
+      "gui.home.reverse_hidden_block_gui.button_empty": "",
+      "gui.home.reverse_hidden_block_set_code_gui.code": "Type code here....",
+      "gui.home.reverse_hidden_block_set_code_gui.button_set_code": "Set Code",
+      "gui.home.reverse_hidden_block_set_code_gui.label_set_code_to_unlock_it": "Set code",
+      "block.home.reverse_hidden_block": "Hidden Block",
+      "gui.hidden_house.reverse_hidden_block_gui.code": "Enter code here....",
+      "gui.hidden_house.reverse_hidden_block_gui.button_empty": "",
+      "gui.hidden_house.reverse_hidden_block_set_code_gui.label_set_code_to_unlock_it": "Set code",
+      "gui.hidden_house.reverse_hidden_block_set_code_gui.button_set_code": "Set Code",
+      "gui.hidden_house.reverse_hidden_block_set_code_gui.code": "Type code here....",
+      "block.hidden_house.reverse_hidden_block": "Reverse Hidden Block",
+      "gui.hidden_house.reverse_hidden_block_gui.button_open": "Open!",
+      "gui.hidden_house.reverse_hidden_block_gui.label_enter_code": "Enter code",
+      "block.hidden_house.reverse_open_hidden_block": "Reverse Open Hidden Block"
     }
   },
   "metadata": {
@@ -284,6 +540,10 @@
     "children": [
       {
         "name": "HiddenBlockFolder",
+        "children": []
+      },
+      {
+        "name": "ReverseHiddenBlockFolder",
         "children": []
       }
     ]

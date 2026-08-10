@@ -18,9 +18,13 @@ public class HiddenHouseModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, HiddenHouseMod.MODID);
 	public static final RegistryObject<Item> HIDDEN_BLOCK;
 	public static final RegistryObject<Item> OPEN_HIDDEN_BLOCK;
+	public static final RegistryObject<Item> REVERSE_HIDDEN_BLOCK;
+	public static final RegistryObject<Item> REVERSE_OPEN_HIDDEN_BLOCK;
 	static {
 		HIDDEN_BLOCK = block(HiddenHouseModBlocks.HIDDEN_BLOCK, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).fireResistant());
 		OPEN_HIDDEN_BLOCK = block(HiddenHouseModBlocks.OPEN_HIDDEN_BLOCK, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
+		REVERSE_HIDDEN_BLOCK = block(HiddenHouseModBlocks.REVERSE_HIDDEN_BLOCK, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).fireResistant());
+		REVERSE_OPEN_HIDDEN_BLOCK = block(HiddenHouseModBlocks.REVERSE_OPEN_HIDDEN_BLOCK, new Item.Properties().rarity(Rarity.EPIC).fireResistant());
 	}
 
 	// Start of user code block custom items

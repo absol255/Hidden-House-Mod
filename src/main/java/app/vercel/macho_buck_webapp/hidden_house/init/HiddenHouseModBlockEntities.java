@@ -11,6 +11,8 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.Block;
 
+import app.vercel.macho_buck_webapp.hidden_house.block.entity.ReverseOpenHiddenBlockBlockEntity;
+import app.vercel.macho_buck_webapp.hidden_house.block.entity.ReverseHiddenBlockBlockEntity;
 import app.vercel.macho_buck_webapp.hidden_house.block.entity.OpenHiddenBlockBlockEntity;
 import app.vercel.macho_buck_webapp.hidden_house.block.entity.HiddenBlockBlockEntity;
 import app.vercel.macho_buck_webapp.hidden_house.HiddenHouseMod;
@@ -19,6 +21,8 @@ public class HiddenHouseModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, HiddenHouseMod.MODID);
 	public static final RegistryObject<BlockEntityType<HiddenBlockBlockEntity>> HIDDEN_BLOCK = register("hidden_block", HiddenHouseModBlocks.HIDDEN_BLOCK, HiddenBlockBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<OpenHiddenBlockBlockEntity>> OPEN_HIDDEN_BLOCK = register("open_hidden_block", HiddenHouseModBlocks.OPEN_HIDDEN_BLOCK, OpenHiddenBlockBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<ReverseHiddenBlockBlockEntity>> REVERSE_HIDDEN_BLOCK = register("reverse_hidden_block", HiddenHouseModBlocks.REVERSE_HIDDEN_BLOCK, ReverseHiddenBlockBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<ReverseOpenHiddenBlockBlockEntity>> REVERSE_OPEN_HIDDEN_BLOCK = register("reverse_open_hidden_block", HiddenHouseModBlocks.REVERSE_OPEN_HIDDEN_BLOCK, ReverseOpenHiddenBlockBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities

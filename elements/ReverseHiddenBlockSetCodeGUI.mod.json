@@ -1,0 +1,65 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_set_code_to_unlock_it",
+          "text": {
+            "fixedValue": "Set code"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "hasShadow": false,
+          "x": 195,
+          "y": 62,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Type code here....",
+          "name": "code",
+          "width": 120,
+          "height": 20,
+          "x": 159,
+          "y": 98,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_set_code",
+          "text": "Set Code",
+          "isUndecorated": false,
+          "onClick": "ReverseHiddenBlockSetCodeLogic",
+          "width": 65,
+          "height": 20,
+          "x": 186,
+          "y": 134,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
